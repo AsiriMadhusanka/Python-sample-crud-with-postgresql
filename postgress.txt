@@ -1,0 +1,9 @@
+docker pull postgres
+
+docker run -itd -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=19930214 -e POSTGRES_DB=iot -p 5432:5432 --name postgres_container postgres
+
+
+docker ps
+
+
+
